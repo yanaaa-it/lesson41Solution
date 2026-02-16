@@ -5,9 +5,11 @@ int main() {
 	int array[DEFUALT_SIZE];
 	int length;
 	do {
-		cout << "input number";
+		cout << "input number of marks:";
 		cin >> length;
 	} while (length <= 0 && length > DEFUALT_SIZE);
+
+	cout << "input student marks:";
 	for (int i = 0; i < length; i++)
 	{
 		cin>>array[i] ;
