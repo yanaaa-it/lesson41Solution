@@ -18,7 +18,7 @@ int main() {
 	int negative = 0;
 	int positiv = 0;
 	for (int i = length - 1; i >= 0; i--) {
-		if (vector[i]>=0) {
+		if (vector[i]>0) {
 			positiv += vector[i];
 		}
 		else {
